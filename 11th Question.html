@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>All Input Types Form</title>
+</head>
+<body>
+  <h1>HTML Form with All Input Types</h1>
+
+  <form action="#" method="post">
+
+    <!-- Text -->
+    <label for="text">Text:</label>
+    <input type="text" id="text" name="text" value="Sample Text"><br><br>
+
+    <!-- Password -->
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" value="123456"><br><br>
+
+    <!-- Email -->
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" value="user@example.com"><br><br>
+
+    <!-- Number -->
+    <label for="number">Number:</label>
+    <input type="number" id="number" name="number" value="10"><br><br>
+
+    <!-- Date -->
+    <label for="date">Date:</label>
+    <input type="date" id="date" name="date" value="2025-07-17"><br><br>
+
+    <!-- Time -->
+    <label for="time">Time:</label>
+    <input type="time" id="time" name="time"><br><br>
+
+    <!-- Color -->
+    <label for="color">Color:</label>
+    <input type="color" id="color" name="color" value="#ff0000"><br><br>
+
+    <!-- Range -->
+    <label for="range">Range (1–100):</label>
+    <input type="range" id="range" name="range" min="1" max="100"><br><br>
+
+    <!-- URL -->
+    <label for="url">URL:</label>
+    <input type="url" id="url" name="url" value="https://example.com"><br><br>
+
+    <!-- Tel -->
+    <label for="tel">Phone:</label>
+    <input type="tel" id="tel" name="tel" value="+1234567890"><br><br>
+
+    <!-- Search -->
+    <label for="search">Search:</label>
+    <input type="search" id="search" name="search" value="search query"><br><br>
+
+    <!-- File -->
+    <label for="file">File Upload:</label>
+    <input type="file" id="file" name="file"><br><br>
+
+    <!-- Checkbox -->
+    <label>Choose Hobbies:</label><br>
+    <input type="checkbox" id="hobby1" name="hobby" value="Reading" checked>
+    <label for="hobby1">Reading</label><br>
+    <input type="checkbox" id="hobby2" name="hobby" value="Gaming">
+    <label for="hobby2">Gaming</label><br><br>
+
+    <!-- Radio -->
+    <label>Gender:</label><br>
+    <input type="radio" id="male" name="gender" value="Male" checked>
+    <label for="male">Male</label><br>
+    <input type="radio" id="female" name="gender" value="Female">
+    <label for="female">Female</label><br><br>
+
+    <!-- Hidden -->
+    <input type="hidden" name="user_id" value="12345">
+
+    <!-- Select -->
+    <label for="country">Country:</label>
+    <select id="country" name="country">
+      <option value="in" selected>India</option>
+      <option value="us">USA</option>
+      <option value="uk">UK</option>
+    </select><br><br>
+
+    <!-- Textarea -->
+    <label for="message">Message:</label><br>
+    <textarea id="message" name="message" rows="4" cols="30">This is a sample message.</textarea><br><br>
+
+    <!-- Submit -->
+    <input type="submit" value="Submit">
+
+    <!-- Reset -->
+    <input type="reset" value="Reset">
+
+    <!-- Button -->
+    <button type="button" onclick="alert('Hello!')">Click Me</button>
+
+  </form>
+</body>
+</html>
